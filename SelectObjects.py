@@ -78,8 +78,7 @@ def SelectHalosByXYZ(filename, x_min_cut, x_max_cut, y_min_cut, y_max_cut, z_min
         GenerateRandomHalos(halos_xyz_cut, **kwargs)
         
     return(halos_xyz_cut)
-  
-  def SelectVoidsByXYZ(filename, x_min_cut, x_max_cut, y_min_cut, y_max_cut, z_min_cut, z_max_cut, export_file=False, include_plot=False, generate_randoms=False, **kwargs):
+def SelectVoidsByXYZ(filename, x_min_cut, x_max_cut, y_min_cut, y_max_cut, z_min_cut, z_max_cut, export_file=False, include_plot=False, generate_randoms=False, **kwargs):
     '''
     Given a specified void catalogue, creates a new catalogue that selects only the voids within a specific positional boundary.
 
@@ -162,8 +161,7 @@ def SelectHalosByXYZ(filename, x_min_cut, x_max_cut, y_min_cut, y_max_cut, z_min
         GenerateRandomVoids(voids_xyz_cut, **kwargs)
         
     return(voids_xyz_cut)
-  
-  def SelectHalosByMass(filename, mass_min_cut, mass_max_cut, export_file=False, include_plot=False, generate_randoms=False, **kwargs):
+def SelectHalosByMass(filename, mass_min_cut, mass_max_cut, export_file=False, include_plot=False, generate_randoms=False, **kwargs):
     '''
     Given a specified halo catalogue, creates a new catalogue that selects only the halos within a specific mass range.
 
@@ -233,8 +231,7 @@ def SelectHalosByXYZ(filename, x_min_cut, x_max_cut, y_min_cut, y_max_cut, z_min
         GenerateRandomHalos(halos_mass_cut, **kwargs)
         
     return(halos_mass_cut)
-  
-  def SelectVoidsByMass(filename, mass_min_cut, mass_max_cut, export_file=False, include_plot=False, generate_randoms=False, **kwargs):
+def SelectVoidsByMass(filename, mass_min_cut, mass_max_cut, export_file=False, include_plot=False, generate_randoms=False, **kwargs):
     '''
     Given a specified void catalogue, creates a new catalogue that selects only the voids within a specific mass range.
 
