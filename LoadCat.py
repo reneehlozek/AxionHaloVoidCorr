@@ -55,8 +55,7 @@ def LoadHaloCat(filename, **kwargs):
         mass_min=mass_max=np.nan
     
     return(halos,x_min,x_max,y_min,y_max,z_min,z_max,mass_min,mass_max)
-  
-  def LoadVoidCat(filename, autoCenter=True, boxLength=1024, **kwargs):
+def LoadVoidCat(filename, autoCenter=True, boxLength=1024, **kwargs):
     '''
     Loads a Void Catalogue and returns the data as a numpy array as well as key minimum/maximum values.
 
@@ -197,8 +196,7 @@ def LoadHaloCat(filename, **kwargs):
         radius_min_void=radius_max_void=delta_avg_min_void=delta_avg_max_void=mean_density=void_density=void_mass=density_min_void=density_max_void=mass_min_void=mass_max_void=np.nan
     
     return(voids,x_min_void,x_max_void,y_min_void,y_max_void,z_min_void,z_max_void,radius_min_void,radius_max_void,delta_avg_min_void,delta_avg_max_void,mean_density,void_density,void_mass,density_min_void,density_max_void,mass_min_void,mass_max_void)
-  
-  def LoadHaloCatNbodykit(filename):
+def LoadHaloCatNbodykit(filename):
     '''
     Loads a Halo Catalogue and returns a nbodykit catalogue of the positional data.
 
@@ -230,8 +228,7 @@ def LoadHaloCat(filename, **kwargs):
     print("The Halo Catalog is:",cat)
     
     return(cat)
-  
-  def LoadVoidCatNbodykit(filename, **kwargs):
+def LoadVoidCatNbodykit(filename, **kwargs):
     '''
     Loads a Void Catalogue and returns a nbodykit catalogue of the positional data.
 
@@ -266,5 +263,3 @@ def LoadHaloCat(filename, **kwargs):
     print("The Void Catalog is:",cat)
     
     return(cat)
-  
-  
