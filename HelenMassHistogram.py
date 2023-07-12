@@ -11,12 +11,28 @@ import numpy as np
 import matplotlib.pyplot as plt
 import astropy.units as u
 
+file_halos_noax =  dir+'Trial_PP_halo_catalog_2048Mpc_n4096.npy'
+file_halos_axions = dir+'Trial_PP_halo_catalog_2048Mpc_n4096_1_25_10.npy'
 
-halos,x_min,x_max,y_min,y_max,z_min,z_max,mass_min,mass_max=LoadHaloCat(dir+'Trial_PP_halo_catalog_2048Mpc_n4096.npy')
-halos_2,x_min_2,x_max_2,y_min_2,y_max_2,z_min_2,z_max_2,mass_min_2,mass_max_2=LoadHaloCat(dir+'Trial_PP_halo_catalog_2048Mpc_n4096_1_25_10.npy')
 
-voids,x_min_void,x_max_void,y_min_void,y_max_void,z_min_void,z_max_void,radius_min_void,radius_max_void,delta_avg_min_void,delta_avg_max_void,mean_density,void_density,void_mass,density_min_void,density_max_void,mass_min_void,mass_max_void=LoadVoidCat(dir+'Trial_PP_void_catalog_2048Mpc_n4096.txt')
-voids_2,x_min_void_2,x_max_void_2,y_min_void_2,y_max_void_2,z_min_void_2,z_max_void_2,radius_min_void_2,radius_max_void_2,delta_avg_min_void_2,delta_avg_max_void_2,mean_density_2,void_density_2,void_mass_2,density_min_void_2,density_max_void_2,mass_min_void_2,mass_max_void_2=LoadVoidCat(dir+'Trial_PP_void_catalog_2048Mpc_n4096_1_25_10.npy')
+file_voids_noax = dir+'Trial_PP_void_catalog_2048Mpc_n4096.txt'
+file_voids_axions = dir+'Trial_PP_void_catalog_2048Mpc_n4096_1_25_10.npy'
+
+halos,x_min,x_max,y_min,y_max,z_min,z_max,mass_min,mass_max=\
+    LoadHaloCat(file_halos_noax)
+halos_ax,x_min_ax,x_max_ax,y_min_ax,y_max_ax,z_min_ax,z_max_ax,mass_min_ax,mass_max_ax=\
+    LoadHaloCat(file_halos_axions)
+
+voids,x_min_void,x_max_void,y_min_void,y_max_void,z_min_void,z_max_void,\
+    radius_min_void,radius_max_void,delta_avg_min_void,delta_avg_max_void,\
+        mean_density,void_density,void_mass,density_min_void,density_max_void,\
+            mass_min_void,mass_max_void=\
+    LoadVoidCat(file_voids_noax)
+voids_ax,x_min_void_ax,x_max_void_ax,y_min_void_ax,y_max_void_ax,z_min_void_ax,z_max_void_ax,\
+    radius_min_void_ax,radius_max_void_ax,delta_avg_min_void_ax,delta_avg_max_void_ax,\
+        mean_density_ax,void_density_ax,void_mass_ax,density_min_void_ax,density_max_void_ax\
+            ,mass_min_void_ax,mass_max_void_ax=\
+    LoadVoidCat(file_voids_axions)
 
 
 #Create mass bins, evenly spaced in logarithmic space
@@ -27,16 +43,16 @@ bins_mass_halo=np.geomspace(10**12, 1.99e+17, num=40)
 plt.figure(figsize=(8,8))
 
 halos[::1, 3]=halos[::1, 3]/0.68
-halos_2[::1, 3]=halos_2[::1, 3]/0.68
+halos_ax[::1, 3]=halos_ax[::1, 3]/0.68
 
 print(np.amin(halos[::1, 3]))
 
 void_mass=void_mass.to(u.Msun)
 void_mass=void_mass/u.Msun
-void_mass_2=void_mass_2.to(u.Msun)
-void_mass_2=void_mass_2/u.Msun
+void_mass_ax=void_mass_ax.to(u.Msun)
+void_mass_ax=void_mass_ax/u.Msun
 
-
+plt.figure(2, figsize=(10,9))
 plt.hist(halos[::1, 3], bins=bins_mass_halo, log=True, label="Halos, No Axions", density=False, histtype="step", lw=3)
 plt.hist(halos[::1, 3], bins=bins_mass_halo, log=True, density=False, histtype="bar", alpha=0.2)
 
@@ -44,11 +60,11 @@ plt.hist(void_mass, bins=bins_mass_halo, log=True, label="Voids, No Axions", den
 plt.hist(void_mass, bins=bins_mass_halo, log=True, density=False, histtype="bar", alpha=0.2)
 
 
-plt.hist(halos_2[::1, 3], bins=bins_mass_halo, log=True, label="Halos, With Axions", density=False, histtype="step", lw=3)
-plt.hist(halos_2[::1, 3], bins=bins_mass_halo, log=True, density=False, histtype="bar", alpha=0.2)
+plt.hist(halos_ax[::1, 3], bins=bins_mass_halo, log=True, label="Halos, With Axions", density=False, histtype="step", lw=3)
+plt.hist(halos_ax[::1, 3], bins=bins_mass_halo, log=True, density=False, histtype="bar", alpha=0.2)
 
-plt.hist(void_mass_2, bins=bins_mass_halo, log=True, label="Voids, With Axions", density=False, histtype="step", lw=3)
-plt.hist(void_mass_2, bins=bins_mass_halo, log=True, density=False, histtype="bar", alpha=0.2)
+plt.hist(void_mass_ax, bins=bins_mass_halo, log=True, label="Voids, With Axions", density=False, histtype="step", lw=3)
+plt.hist(void_mass_ax, bins=bins_mass_halo, log=True, density=False, histtype="bar", alpha=0.2)
 
 #halos_hist_1, halos_bins_1 = np.histogram(halos[::1, 3], bins=bins_mass_halo)
 #halos_hist_2, halos_bins_2 = np.histogram(halos_2[::1, 3], bins=bins_mass_halo)
