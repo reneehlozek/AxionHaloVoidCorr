@@ -1,0 +1,598 @@
+=============VOIDS================
+Mass Bin 1, No Axions
+Shape of array: (43540, 9)
+
+
+x minimum: -696.296765
+x maximum: 696.3021829999999
+y minimum: -696.3003080000001
+y maximum: 696.279975
+z minimum: -696.3098560000001
+z maximum: 696.308956
+
+
+x box size: 1392.5989479999998
+y box size: 1392.5802830000002
+z box size: 1392.6188120000002
+
+
+minimum radius: 12.073
+maximum radius: 49.35
+maximum/minimum radius: 4.0876335624948235
+
+
+minimum delta_avg: -0.602187
+maximum delta_avg: 2.035145
+maximum/minimum delta_avg: -3.3795897287719594
+
+
+The mean density is: 8.685451636698969e-27 kg / m3
+minimum density: 3.455185571950127e-27 kg / m3
+maximum density: 2.6361605107868693e-26 kg / m3
+maximum/minimum density: 7.629577213414343
+
+
+minimum mass: 1.6810280572367786e+46 kg
+maximum mass: 3.211473154485775e+47 kg
+maximum/minimum mass: 19.104221019158327
+
+
+Mass Bin 2, No Axions
+Shape of array: (44980, 9)
+
+
+x minimum: -696.3072010000001
+x maximum: 696.2971999999999
+y minimum: -696.304345
+y maximum: 696.240905
+z minimum: -696.294082
+z maximum: 696.30184
+
+
+x box size: 1392.604401
+y box size: 1392.5452500000001
+z box size: 1392.595922
+
+
+minimum radius: 4.492
+maximum radius: 21.999
+maximum/minimum radius: 4.897373107747105
+
+
+minimum delta_avg: -0.699425
+maximum delta_avg: 4.479206
+maximum/minimum delta_avg: -6.404126246559674
+
+
+The mean density is: 8.685451636698969e-27 kg / m3
+minimum density: 2.6106296257007928e-27 kg / m3
+maximum density: 4.7589378720510807e-26 kg / m3
+maximum/minimum density: 18.229080928220906
+
+
+minimum mass: 7.1215807318645084e+44 kg
+maximum mass: 1.6671410032962926e+46 kg
+maximum/minimum mass: 23.40970447525653
+
+
+Mass Bin 1, With Axions
+Shape of array: (35451, 9)
+
+
+x minimum: -696.282871
+x maximum: 696.2179029999999
+y minimum: -696.310678
+y maximum: 696.265914
+z minimum: -696.291231
+z maximum: 696.2389440000001
+
+
+x box size: 1392.5007739999999
+y box size: 1392.576592
+z box size: 1392.530175
+
+
+minimum radius: 11.726
+maximum radius: 57.789
+maximum/minimum radius: 4.928279038035136
+
+
+minimum delta_avg: -0.593511
+maximum delta_avg: 2.588718
+maximum/minimum delta_avg: -4.361701805021306
+
+
+The mean density is: 8.685451636698969e-27 kg / m3
+minimum density: 3.530540550350127e-27 kg / m3
+maximum density: 3.116963662675105e-26 kg / m3
+maximum/minimum density: 8.828573466932685
+
+
+minimum mass: 1.6812793863635352e+46 kg
+maximum mass: 5.06188841475657e+47 kg
+maximum/minimum mass: 30.10736023894878
+
+
+Mass Bin 2, With Axions
+Shape of array: (18436, 9)
+
+
+x minimum: -696.135928
+x maximum: 696.315371
+y minimum: -696.125579
+y maximum: 696.2851979999999
+z minimum: -696.2967950000001
+z maximum: 696.19385
+
+
+x box size: 1392.451299
+y box size: 1392.410777
+z box size: 1392.490645
+
+
+minimum radius: 4.58
+maximum radius: 22.348
+maximum/minimum radius: 4.8794759825327505
+
+
+minimum delta_avg: -0.680486
+maximum delta_avg: 3.454614
+maximum/minimum delta_avg: -5.076686368272087
+
+
+The mean density is: 8.685451636698969e-27 kg / m3
+minimum density: 2.775123394248234e-27 kg / m3
+maximum density: 3.869033445716214e-26 kg / m3
+maximum/minimum density: 13.941842923940735
+
+
+minimum mass: 9.661034078913707e+44 kg
+maximum mass: 1.6623309557400828e+46 kg
+maximum/minimum mass: 17.206553068354317
+
+
+=============VOIDS RANDOM================
+Mass Bin 1, No Axions, RANDOM
+Shape of array: (44980, 3)
+
+
+x minimum: -696.206307314585
+x maximum: 696.2664955528003
+y minimum: -696.2997349031156
+y maximum: 696.1966448480573
+z minimum: -696.2663735996629
+z maximum: 696.2851341515299
+
+
+x box size: 1392.4728028673853
+y box size: 1392.4963797511728
+z box size: 1392.5515077511927
+
+
+minimum radius: nan
+maximum radius: nan
+maximum/minimum radius: nan
+
+
+minimum delta_avg: nan
+maximum delta_avg: nan
+maximum/minimum delta_avg: nan
+
+
+The mean density is: nan
+minimum density: nan
+maximum density: nan
+maximum/minimum density: nan
+
+
+minimum mass: nan
+maximum mass: nan
+maximum/minimum mass: nan
+
+
+Mass Bin 2, No Axions, RANDOM
+Shape of array: (43540, 3)
+
+
+x minimum: -696.1958717096528
+x maximum: 696.2714786730292
+y minimum: -696.295697787137
+y maximum: 696.2357137345812
+z minimum: -696.2691675858466
+z maximum: 696.2922498769371
+
+
+x box size: 1392.467350382682
+y box size: 1392.5314115217182
+z box size: 1392.5614174627838
+
+
+minimum radius: nan
+maximum radius: nan
+maximum/minimum radius: nan
+
+
+minimum delta_avg: nan
+maximum delta_avg: nan
+maximum/minimum delta_avg: nan
+
+
+The mean density is: nan
+minimum density: nan
+maximum density: nan
+maximum/minimum density: nan
+
+
+minimum mass: nan
+maximum mass: nan
+maximum/minimum mass: nan
+
+
+Mass Bin 1, With Axions, RANDOM
+Shape of array: (18436, 3)
+
+
+x minimum: -696.0350454067695
+x maximum: 696.2846699284268
+y minimum: -695.8045095221368
+y maximum: 696.1720568916994
+z minimum: -696.0181642800006
+z maximum: 696.1495915836027
+
+
+x box size: 1392.3197153351962
+y box size: 1391.9765664138363
+z box size: 1392.1677558636034
+
+
+minimum radius: nan
+maximum radius: nan
+maximum/minimum radius: nan
+
+
+minimum delta_avg: nan
+maximum delta_avg: nan
+maximum/minimum delta_avg: nan
+
+
+The mean density is: nan
+minimum density: nan
+maximum density: nan
+maximum/minimum density: nan
+
+
+minimum mass: nan
+maximum mass: nan
+maximum/minimum mass: nan
+
+
+Mass Bin 2, With Axions, RANDOM
+Shape of array: (35451, 3)
+
+
+x minimum: -696.1819848223237
+x maximum: 696.1872008375911
+y minimum: -696.2224447359304
+y maximum: 696.2216528518943
+z minimum: -696.2866209530222
+z maximum: 696.1826208756773
+
+
+x box size: 1392.3691856599148
+y box size: 1392.4440975878247
+z box size: 1392.4692418286995
+
+
+minimum radius: nan
+maximum radius: nan
+maximum/minimum radius: nan
+
+
+minimum delta_avg: nan
+maximum delta_avg: nan
+maximum/minimum delta_avg: nan
+
+
+The mean density is: nan
+minimum density: nan
+maximum density: nan
+maximum/minimum density: nan
+
+
+minimum mass: nan
+maximum mass: nan
+maximum/minimum mass: nan
+
+
+=============HALOS================
+Mass Bin 1, No Axions
+Shape of array: (12140033, 4)
+
+
+x minimum: -696.32
+x maximum: 696.3198
+y minimum: -696.32
+y maximum: 696.31995
+z minimum: -696.31995
+z maximum: 696.31995
+
+
+x box size: 1392.6399
+y box size: 1392.6399
+z box size: 1392.6399
+
+
+minimum mass: 6.800001e+11
+maximum mass: 3.927384e+12
+maximum/minimum mass: 5.775564
+Mass Bin 2, No Axions
+Shape of array: (2682545, 4)
+
+
+x minimum: -696.3197
+x maximum: 696.3196
+y minimum: -696.3195
+y maximum: 696.31824
+z minimum: -696.31903
+z maximum: 696.31995
+
+
+x box size: 1392.6393
+y box size: 1392.6377
+z box size: 1392.6389
+
+
+minimum mass: 3.927385e+12
+maximum mass: 2.268286e+13
+maximum/minimum mass: 5.7755623
+Mass Bin 3, No Axions
+Shape of array: (502442, 4)
+
+
+x minimum: -696.3173
+x maximum: 696.3186
+y minimum: -696.3136
+y maximum: 696.3193
+z minimum: -696.3167
+z maximum: 696.31934
+
+
+x box size: 1392.636
+y box size: 1392.6328
+z box size: 1392.636
+
+
+minimum mass: 2.268288e+13
+maximum mass: 1.310061e+14
+maximum/minimum mass: 5.775549
+Mass Bin 4, No Axions
+Shape of array: (58320, 4)
+
+
+x minimum: -696.2926
+x maximum: 696.2878
+y minimum: -696.2991
+y maximum: 696.3143
+z minimum: -696.3124
+z maximum: 696.3165
+
+
+x box size: 1392.5803
+y box size: 1392.6133
+z box size: 1392.6289
+
+
+minimum mass: 1.310067e+14
+maximum mass: 7.561029e+14
+maximum/minimum mass: 5.7714834
+Mass Bin 5, No Axions
+Shape of array: (1547, 4)
+
+
+x minimum: -693.8882
+x maximum: 696.1256
+y minimum: -696.2254
+y maximum: 695.76
+z minimum: -695.6677
+z maximum: 695.8289
+
+
+x box size: 1390.0138
+y box size: 1391.9854
+z box size: 1391.4966
+
+
+minimum mass: 7.567028e+14
+maximum mass: 3.259111e+15
+maximum/minimum mass: 4.306989
+=============HALOS RANDOM================
+Mass Bin 1, No Axions, RANDOM
+Shape of array: (12140033, 3)
+
+
+x minimum: -1044.4799928937946
+x maximum: 348.1597116411245
+y minimum: -1044.4798320680814
+y maximum: 348.1598836260653
+z minimum: -1044.4798297932994
+z maximum: 348.15991677739095
+
+
+x box size: 1392.639704534919
+y box size: 1392.6397156941466
+z box size: 1392.6397465706902
+
+
+minimum radius: nan
+maximum radius: nan
+maximum/minimum radius: nan
+
+
+minimum delta_avg: nan
+maximum delta_avg: nan
+maximum/minimum delta_avg: nan
+
+
+The mean density is: nan
+minimum density: nan
+maximum density: nan
+maximum/minimum density: nan
+
+
+minimum mass: nan
+maximum mass: nan
+maximum/minimum mass: nan
+
+
+Mass Bin 2, No Axions, RANDOM
+Shape of array: (2682545, 3)
+
+
+x minimum: -1044.479414218265
+x maximum: 348.1591912053771
+y minimum: -1044.479483993286
+y maximum: 348.15801003334064
+z minimum: -1044.4784949294337
+z maximum: 348.15968718244613
+
+
+x box size: 1392.638605423642
+y box size: 1392.6374940266267
+z box size: 1392.6381821118798
+
+
+minimum radius: nan
+maximum radius: nan
+maximum/minimum radius: nan
+
+
+minimum delta_avg: nan
+maximum delta_avg: nan
+maximum/minimum delta_avg: nan
+
+
+The mean density is: nan
+minimum density: nan
+maximum density: nan
+maximum/minimum density: nan
+
+
+minimum mass: nan
+maximum mass: nan
+maximum/minimum mass: nan
+
+
+Mass Bin 3, No Axions, RANDOM
+Shape of array: (502442, 3)
+
+
+x minimum: -1044.4732129216404
+x maximum: 348.15722763504533
+y minimum: -1044.4726138738133
+y maximum: 348.1588860313853
+z minimum: -1044.4746255992966
+z maximum: 348.1527810432263
+
+
+x box size: 1392.6304405566857
+y box size: 1392.6314999051986
+z box size: 1392.6274066425228
+
+
+minimum radius: nan
+maximum radius: nan
+maximum/minimum radius: nan
+
+
+minimum delta_avg: nan
+maximum delta_avg: nan
+maximum/minimum delta_avg: nan
+
+
+The mean density is: nan
+minimum density: nan
+maximum density: nan
+maximum/minimum density: nan
+
+
+minimum mass: nan
+maximum mass: nan
+maximum/minimum mass: nan
+
+
+Mass Bin 4, No Axions, RANDOM
+Shape of array: (58320, 3)
+
+
+x minimum: -1044.351710593721
+x maximum: 348.09707684406663
+y minimum: -1044.4544619433173
+y maximum: 348.137563962084
+z minimum: -1044.4446688730648
+z maximum: 348.12108102228655
+
+
+x box size: 1392.4487874377876
+y box size: 1392.5920259054012
+z box size: 1392.5657498953512
+
+
+minimum radius: nan
+maximum radius: nan
+maximum/minimum radius: nan
+
+
+minimum delta_avg: nan
+maximum delta_avg: nan
+maximum/minimum delta_avg: nan
+
+
+The mean density is: nan
+minimum density: nan
+maximum density: nan
+maximum/minimum density: nan
+
+
+minimum mass: nan
+maximum mass: nan
+maximum/minimum mass: nan
+
+
+Mass Bin 5, No Axions, RANDOM
+Shape of array: (1547, 3)
+
+
+x minimum: -1041.289284855916
+x maximum: 347.69953129368133
+y minimum: -1044.282814296231
+y maximum: 347.5499241018036
+z minimum: -1043.7269111806218
+z maximum: 347.57310976484865
+
+
+x box size: 1388.9888161495974
+y box size: 1391.8327383980345
+z box size: 1391.3000209454704
+
+
+minimum radius: nan
+maximum radius: nan
+maximum/minimum radius: nan
+
+
+minimum delta_avg: nan
+maximum delta_avg: nan
+maximum/minimum delta_avg: nan
+
+
+The mean density is: nan
+minimum density: nan
+maximum density: nan
+maximum/minimum density: nan
+
+
+minimum mass: nan
+maximum mass: nan
+maximum/minimum mass: nan
+
+

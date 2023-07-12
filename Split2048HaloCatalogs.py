@@ -1,0 +1,19 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[ ]:
+
+
+from SelectObjects import SelectHalosByMass
+SelectHalosByMass('Trial_PP_halo_catalog_2048Mpc_n4096.npy', 6.80000000e+11, 3.92738446e+12, autoCenter=False, export_file=True, include_plot=False, generate_randoms=True, seed=0, export_rand_file=True, fileAppendix="MassBin1_2048Mpc", include_rand_plot=False, pointSize=0.05, title="Mass Cut Halo 1", graphSize=20, axisLabelSize=20, axisTickSize=15, titleSize=45)
+SelectHalosByMass('Trial_PP_halo_catalog_2048Mpc_n4096.npy', 3.92738446e+12, 2.26828658e+13, autoCenter=False, export_file=True, include_plot=False, generate_randoms=True, seed=0, export_rand_file=True, fileAppendix="MassBin2_2048Mpc", include_rand_plot=False, pointSize=0.05, title="Mass Cut Halo 2", graphSize=20, axisLabelSize=20, axisTickSize=15, titleSize=45)
+SelectHalosByMass('Trial_PP_halo_catalog_2048Mpc_n4096.npy', 2.26828658e+13, 1.31006374e+14, autoCenter=False, export_file=True, include_plot=False, generate_randoms=True, seed=0, export_rand_file=True, fileAppendix="MassBin3_2048Mpc", include_rand_plot=False, pointSize=0.05, title="Mass Cut Halo 3", graphSize=20, axisLabelSize=20, axisTickSize=15, titleSize=45)
+SelectHalosByMass('Trial_PP_halo_catalog_2048Mpc_n4096.npy', 1.31006374e+14, 7.56635880e+14, autoCenter=False, export_file=True, include_plot=False, generate_randoms=True, seed=0, export_rand_file=True, fileAppendix="MassBin4_2048Mpc", include_rand_plot=False, pointSize=0.05, title="Mass Cut Halo 4", graphSize=20, axisLabelSize=20, axisTickSize=15, titleSize=45)
+SelectHalosByMass('Trial_PP_halo_catalog_2048Mpc_n4096.npy', 7.56635880e+14, 4.37000000e+15, autoCenter=False, export_file=True, include_plot=False, generate_randoms=True, seed=0, export_rand_file=True, fileAppendix="MassBin5_2048Mpc", include_rand_plot=False, pointSize=0.05, title="Mass Cut Halo 5", graphSize=20, axisLabelSize=20, axisTickSize=15, titleSize=45)
+
+SelectHalosByMass('Trial_PP_halo_catalog_2048Mpc_n4096_1_25_10.npy', 6.80000000e+11, 3.92738446e+12, autoCenter=False, export_file=True, include_plot=False, generate_randoms=True, seed=0, export_rand_file=True, fileAppendix="MassBin1_2048Mpc_1_25_10", include_rand_plot=False, pointSize=0.05, title="Mass Cut Halo 1_1_25_10", graphSize=20, axisLabelSize=20, axisTickSize=15, titleSize=45)
+SelectHalosByMass('Trial_PP_halo_catalog_2048Mpc_n4096_1_25_10.npy', 3.92738446e+12, 2.26828658e+13, autoCenter=False, export_file=True, include_plot=False, generate_randoms=True, seed=0, export_rand_file=True, fileAppendix="MassBin2_2048Mpc_1_25_10", include_rand_plot=False, pointSize=0.05, title="Mass Cut Halo 2_1_25_10", graphSize=20, axisLabelSize=20, axisTickSize=15, titleSize=45)
+SelectHalosByMass('Trial_PP_halo_catalog_2048Mpc_n4096_1_25_10.npy', 2.26828658e+13, 1.31006374e+14, autoCenter=False, export_file=True, include_plot=False, generate_randoms=True, seed=0, export_rand_file=True, fileAppendix="MassBin3_2048Mpc_1_25_10", include_rand_plot=False, pointSize=0.05, title="Mass Cut Halo 3_1_25_10", graphSize=20, axisLabelSize=20, axisTickSize=15, titleSize=45)
+SelectHalosByMass('Trial_PP_halo_catalog_2048Mpc_n4096_1_25_10.npy', 1.31006374e+14, 7.56635880e+14, autoCenter=False, export_file=True, include_plot=False, generate_randoms=True, seed=0, export_rand_file=True, fileAppendix="MassBin4_2048Mpc_1_25_10", include_rand_plot=False, pointSize=0.05, title="Mass Cut Halo 4_1_25_10", graphSize=20, axisLabelSize=20, axisTickSize=15, titleSize=45)
+SelectHalosByMass('Trial_PP_halo_catalog_2048Mpc_n4096_1_25_10.npy', 7.56635880e+14, 4.37000000e+15, autoCenter=False, export_file=True, include_plot=False, generate_randoms=True, seed=0, export_rand_file=True, fileAppendix="MassBin5_2048Mpc_1_25_10", include_rand_plot=False, pointSize=0.05, title="Mass Cut Halo 5_1_25_10", graphSize=20, axisLabelSize=20, axisTickSize=15, titleSize=45)
+
