@@ -3,7 +3,7 @@
 
 # In[ ]:
 
-
+dir = '/home/renee/toshare/axion/'
 from LoadCat import LoadHaloCat
 from LoadCat import LoadVoidCat
 
@@ -12,11 +12,11 @@ import matplotlib.pyplot as plt
 import astropy.units as u
 
 
-halos,x_min,x_max,y_min,y_max,z_min,z_max,mass_min,mass_max=LoadHaloCat('Trial_PP_halo_catalog_2048Mpc_n4096.npy')
-halos_2,x_min_2,x_max_2,y_min_2,y_max_2,z_min_2,z_max_2,mass_min_2,mass_max_2=LoadHaloCat('Trial_PP_halo_catalog_2048Mpc_n4096_1_25_10.npy')
+halos,x_min,x_max,y_min,y_max,z_min,z_max,mass_min,mass_max=LoadHaloCat(dir+'Trial_PP_halo_catalog_2048Mpc_n4096.npy')
+halos_2,x_min_2,x_max_2,y_min_2,y_max_2,z_min_2,z_max_2,mass_min_2,mass_max_2=LoadHaloCat(dir+'Trial_PP_halo_catalog_2048Mpc_n4096_1_25_10.npy')
 
-voids,x_min_void,x_max_void,y_min_void,y_max_void,z_min_void,z_max_void,radius_min_void,radius_max_void,delta_avg_min_void,delta_avg_max_void,mean_density,void_density,void_mass,density_min_void,density_max_void,mass_min_void,mass_max_void=LoadVoidCat('Trial_PP_void_catalog_2048Mpc_n4096.txt')
-voids_2,x_min_void_2,x_max_void_2,y_min_void_2,y_max_void_2,z_min_void_2,z_max_void_2,radius_min_void_2,radius_max_void_2,delta_avg_min_void_2,delta_avg_max_void_2,mean_density_2,void_density_2,void_mass_2,density_min_void_2,density_max_void_2,mass_min_void_2,mass_max_void_2=LoadVoidCat('Trial_PP_void_catalog_2048Mpc_n4096_1_25_10.npy')
+voids,x_min_void,x_max_void,y_min_void,y_max_void,z_min_void,z_max_void,radius_min_void,radius_max_void,delta_avg_min_void,delta_avg_max_void,mean_density,void_density,void_mass,density_min_void,density_max_void,mass_min_void,mass_max_void=LoadVoidCat(dir+'Trial_PP_void_catalog_2048Mpc_n4096.txt')
+voids_2,x_min_void_2,x_max_void_2,y_min_void_2,y_max_void_2,z_min_void_2,z_max_void_2,radius_min_void_2,radius_max_void_2,delta_avg_min_void_2,delta_avg_max_void_2,mean_density_2,void_density_2,void_mass_2,density_min_void_2,density_max_void_2,mass_min_void_2,mass_max_void_2=LoadVoidCat(dir+'Trial_PP_void_catalog_2048Mpc_n4096_1_25_10.npy')
 
 
 #Create mass bins, evenly spaced in logarithmic space
@@ -80,5 +80,5 @@ plt.ylabel("Count", fontsize=30, labelpad=0)
 #plt.ylim(-1.2,0.4)
 #plt.xlim(5,10**2)
 
-plt.savefig('histogram.png')
+plt.savefig('histogram_test.png')
 
