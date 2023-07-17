@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
 
-
+dir='/home/renee/toshare/axion/'
 from nbodykit.lab import *
 #import matplotlib.pyplot as plt
 
@@ -23,45 +22,45 @@ histogram_bins_3d = np.logspace(-1,2.5)
 
 print("No axions, 2048n4096")
 
-HaloMassBin1 = LoadHaloCatNbodykit("Trial_PP_halo_catalog_2048Mpc_n4096_massmin_680000000000.0_massmax_3927384460000.0.npy")
-HaloMassBin2 = LoadHaloCatNbodykit("Trial_PP_halo_catalog_2048Mpc_n4096_massmin_3927384460000.0_massmax_22682865800000.0.npy")
-HaloMassBin3 = LoadHaloCatNbodykit("Trial_PP_halo_catalog_2048Mpc_n4096_massmin_22682865800000.0_massmax_131006374000000.0.npy")
-HaloMassBin4 = LoadHaloCatNbodykit("Trial_PP_halo_catalog_2048Mpc_n4096_massmin_131006374000000.0_massmax_756635880000000.0.npy")
-HaloMassBin5 = LoadHaloCatNbodykit("Trial_PP_halo_catalog_2048Mpc_n4096_massmin_756635880000000.0_massmax_4370000000000000.0.npy")
+HaloMassBin1 = LoadHaloCatNbodykit(dir+"Trial_PP_halo_catalog_2048Mpc_n4096_massmin_680000000000.0_massmax_3927384460000.0.npy")
+HaloMassBin2 = LoadHaloCatNbodykit(dir+"Trial_PP_halo_catalog_2048Mpc_n4096_massmin_3927384460000.0_massmax_22682865800000.0.npy")
+HaloMassBin3 = LoadHaloCatNbodykit(dir+"Trial_PP_halo_catalog_2048Mpc_n4096_massmin_22682865800000.0_massmax_131006374000000.0.npy")
+HaloMassBin4 = LoadHaloCatNbodykit(dir+"Trial_PP_halo_catalog_2048Mpc_n4096_massmin_131006374000000.0_massmax_756635880000000.0.npy")
+HaloMassBin5 = LoadHaloCatNbodykit(dir+"Trial_PP_halo_catalog_2048Mpc_n4096_massmin_756635880000000.0_massmax_4370000000000000.0.npy")
 
-HaloMassBin1_Random = LoadHaloCatNbodykit("RandomHalos_MassBin1_2048Mpc.npy")
-HaloMassBin2_Random = LoadHaloCatNbodykit("RandomHalos_MassBin2_2048Mpc.npy")
-HaloMassBin3_Random = LoadHaloCatNbodykit("RandomHalos_MassBin3_2048Mpc.npy")
-HaloMassBin4_Random = LoadHaloCatNbodykit("RandomHalos_MassBin4_2048Mpc.npy")
-HaloMassBin5_Random = LoadHaloCatNbodykit("RandomHalos_MassBin5_2048Mpc.npy")
+HaloMassBin1_Random = LoadHaloCatNbodykit(dir+"RandomHalos_MassBin1_2048Mpc.npy")
+HaloMassBin2_Random = LoadHaloCatNbodykit(dir+"RandomHalos_MassBin2_2048Mpc.npy")
+HaloMassBin3_Random = LoadHaloCatNbodykit(dir+"RandomHalos_MassBin3_2048Mpc.npy")
+HaloMassBin4_Random = LoadHaloCatNbodykit(dir+"RandomHalos_MassBin4_2048Mpc.npy")
+HaloMassBin5_Random = LoadHaloCatNbodykit(dir+"RandomHalos_MassBin5_2048Mpc.npy")
 
-VoidMassBin1 = LoadVoidCatNbodykit("Trial_PP_void_catalog_2048Mpc_n4096_massmin_7.1e+44_massmax_1.67952207e+46.npy", autoCenter=False)
-VoidMassBin2 = LoadVoidCatNbodykit("Trial_PP_void_catalog_2048Mpc_n4096_massmin_1.67952207e+46_massmax_3.95657784e+47.npy", autoCenter=False)
+VoidMassBin1 = LoadVoidCatNbodykit(dir+"Trial_PP_void_catalog_2048Mpc_n4096_massmin_7.1e+44_massmax_1.67952207e+46.npy", autoCenter=False)
+VoidMassBin2 = LoadVoidCatNbodykit(dir+"Trial_PP_void_catalog_2048Mpc_n4096_massmin_1.67952207e+46_massmax_3.95657784e+47.npy", autoCenter=False)
 
-VoidMassBin1_Random = LoadVoidCatNbodykit("RandomVoids_MassBin1_2048Mpc.npy", autoCenter=False)
-VoidMassBin2_Random = LoadVoidCatNbodykit("RandomVoids_MassBin2_2048Mpc.npy", autoCenter=False)
+VoidMassBin1_Random = LoadVoidCatNbodykit(dir+"RandomVoids_MassBin1_2048Mpc.npy", autoCenter=False)
+VoidMassBin2_Random = LoadVoidCatNbodykit(dir+"RandomVoids_MassBin2_2048Mpc.npy", autoCenter=False)
 
 print("\n")
 
 print("1 25 10, 2048n4096")
 
-HaloMassBin1_1_25_10 = LoadHaloCatNbodykit("Trial_PP_halo_catalog_2048Mpc_n4096_1_25_10_massmin_680000000000.0_massmax_3927384460000.0.npy")
-HaloMassBin2_1_25_10 = LoadHaloCatNbodykit("Trial_PP_halo_catalog_2048Mpc_n4096_1_25_10_massmin_3927384460000.0_massmax_22682865800000.0.npy")
-HaloMassBin3_1_25_10 = LoadHaloCatNbodykit("Trial_PP_halo_catalog_2048Mpc_n4096_1_25_10_massmin_22682865800000.0_massmax_131006374000000.0.npy")
-HaloMassBin4_1_25_10 = LoadHaloCatNbodykit("Trial_PP_halo_catalog_2048Mpc_n4096_1_25_10_massmin_131006374000000.0_massmax_756635880000000.0.npy")
-HaloMassBin5_1_25_10 = LoadHaloCatNbodykit("Trial_PP_halo_catalog_2048Mpc_n4096_1_25_10_massmin_756635880000000.0_massmax_4370000000000000.0.npy")
+HaloMassBin1_1_25_10 = LoadHaloCatNbodykit(dir+"Trial_PP_halo_catalog_2048Mpc_n4096_1_25_10_massmin_680000000000.0_massmax_3927384460000.0.npy")
+HaloMassBin2_1_25_10 = LoadHaloCatNbodykit(dir+"Trial_PP_halo_catalog_2048Mpc_n4096_1_25_10_massmin_3927384460000.0_massmax_22682865800000.0.npy")
+HaloMassBin3_1_25_10 = LoadHaloCatNbodykit(dir+"Trial_PP_halo_catalog_2048Mpc_n4096_1_25_10_massmin_22682865800000.0_massmax_131006374000000.0.npy")
+HaloMassBin4_1_25_10 = LoadHaloCatNbodykit(dir+"Trial_PP_halo_catalog_2048Mpc_n4096_1_25_10_massmin_131006374000000.0_massmax_756635880000000.0.npy")
+HaloMassBin5_1_25_10 = LoadHaloCatNbodykit(dir+"Trial_PP_halo_catalog_2048Mpc_n4096_1_25_10_massmin_756635880000000.0_massmax_4370000000000000.0.npy")
 
-HaloMassBin1_Random_1_25_10 = LoadHaloCatNbodykit("RandomHalos_MassBin1_2048Mpc_1_25_10.npy")
-HaloMassBin2_Random_1_25_10 = LoadHaloCatNbodykit("RandomHalos_MassBin2_2048Mpc_1_25_10.npy")
-HaloMassBin3_Random_1_25_10 = LoadHaloCatNbodykit("RandomHalos_MassBin3_2048Mpc_1_25_10.npy")
-HaloMassBin4_Random_1_25_10 = LoadHaloCatNbodykit("RandomHalos_MassBin4_2048Mpc_1_25_10.npy")
-HaloMassBin5_Random_1_25_10 = LoadHaloCatNbodykit("RandomHalos_MassBin5_2048Mpc_1_25_10.npy")
+HaloMassBin1_Random_1_25_10 = LoadHaloCatNbodykit(dir+"RandomHalos_MassBin1_2048Mpc_1_25_10.npy")
+HaloMassBin2_Random_1_25_10 = LoadHaloCatNbodykit(dir+"RandomHalos_MassBin2_2048Mpc_1_25_10.npy")
+HaloMassBin3_Random_1_25_10 = LoadHaloCatNbodykit(dir+"RandomHalos_MassBin3_2048Mpc_1_25_10.npy")
+HaloMassBin4_Random_1_25_10 = LoadHaloCatNbodykit(dir+"RandomHalos_MassBin4_2048Mpc_1_25_10.npy")
+HaloMassBin5_Random_1_25_10 = LoadHaloCatNbodykit(dir+"RandomHalos_MassBin5_2048Mpc_1_25_10.npy")
 
-VoidMassBin1_1_25_10 = LoadVoidCatNbodykit("Trial_PP_void_catalog_2048Mpc_n4096_1_25_10_massmin_7.1e+44_massmax_1.67952207e+46.npy", autoCenter=False)
-VoidMassBin2_1_25_10 = LoadVoidCatNbodykit("Trial_PP_void_catalog_2048Mpc_n4096_1_25_10_massmin_1.67952207e+46_massmax_5.1e+47.npy", autoCenter=False)
+VoidMassBin1_1_25_10 = LoadVoidCatNbodykit(dir+"Trial_PP_void_catalog_2048Mpc_n4096_1_25_10_massmin_7.1e+44_massmax_1.67952207e+46.npy", autoCenter=False)
+VoidMassBin2_1_25_10 = LoadVoidCatNbodykit(dir+"Trial_PP_void_catalog_2048Mpc_n4096_1_25_10_massmin_1.67952207e+46_massmax_5.1e+47.npy", autoCenter=False)
 
-VoidMassBin1_Random_1_25_10 = LoadVoidCatNbodykit("RandomVoids_MassBin1_2048Mpc_1_25_10.npy", autoCenter=False)
-VoidMassBin2_Random_1_25_10 = LoadVoidCatNbodykit("RandomVoids_MassBin2_2048Mpc_1_25_10.npy", autoCenter=False)
+VoidMassBin1_Random_1_25_10 = LoadVoidCatNbodykit(dir+"RandomVoids_MassBin1_2048Mpc_1_25_10.npy", autoCenter=False)
+VoidMassBin2_Random_1_25_10 = LoadVoidCatNbodykit(dir+"RandomVoids_MassBin2_2048Mpc_1_25_10.npy", autoCenter=False)
 
 print("\n")
 
@@ -129,10 +128,4 @@ np.save("corr_halohalo_Mass1_1_25_10", corr_halohalo_Mass1_1_25_10[4]['corr'])
 
 
 print("Processing DONE")
-
-
-# In[ ]:
-
-
-
 
